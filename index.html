@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Guardião</title>
+  <link rel="icon" href="./assets/img/shield.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-Y0PW/Y8ruoGXCLlZ6KPufMVwbh3MUheawqVNNqYhUXiEoFa1PkAb5LAtUr8ZZgxh" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./assets/img/shield.svg" alt="Escudo" width="30" height="30" class="d-inline-block align-top mr-2"
+          style="filter: brightness(0) invert(1);">
+        Digital Guardião
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./creditos.html">Créditos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="darkModeToggle">Modo Claro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/certificadodigital.png" class="d-block w-100" alt="Imagem 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>LGPD e Certificado Digital</h5>
+          <p>Descubra como a Lei Geral de Proteção de Dados (LGPD) e o uso de certificados digitais podem garantir a
+            segurança e privacidade das informações pessoais. Explore as diretrizes da LGPD e aprenda como os
+            certificados digitais fornecem autenticidade e integridade aos seus dados online</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/senhaspermissoes.png" class="d-block w-100" alt="Imagem 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Senhas e Permissões de Acesso</h5>
+          <p>Explore a importância do gerenciamento de senhas e das permissões de acesso para garantir a segurança dos
+            seus dados. Saiba como implementar políticas eficazes de senha e controlar o acesso de diferentes usuários
+            para proteger suas informações contra ameaças cibernéticas</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/segurancadainformacao.png" class="d-block w-100" alt="Imagem 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Segurança da Informação</h5>
+          <p>Explore os fundamentos da segurança da informação e fortaleça sua defesa contra ameaças cibernéticas.
+            Descubra as principais práticas e tecnologias para proteger seus dados, garantir a confidencialidade e
+            integridade das informações e manter a segurança em sua jornada digital</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./assets/img/boaspraticas.png" class="d-block w-100" alt="Imagem 4">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Boas Práticas e Segurança Lógica</h5>
+          <p>Conheça as melhores práticas em segurança da informação e fortaleça sua postura de defesa contra ameaças
+            cibernéticas. Explore as estratégias de segurança lógica, desde a proteção de dados até a prevenção de
+            vulnerabilidades, e aprenda a garantir a integridade e confidencialidade das informações em seu ambiente
+            digital</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./assets/img/mapearvunerabilidades.png" class="d-block w-100" alt="Imagem 5">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Como Mapear Vulnerabilidade</h5>
+          <p>Descubra como identificar e mapear vulnerabilidades em sistemas e redes para fortalecer sua segurança
+            cibernética. Aprenda as técnicas e ferramentas essenciais para avaliar e mitigar riscos, e saiba como criar
+            um plano preventivo eficaz para proteger seus dados contra potenciais ameaças</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Aprenda sobre segurança da informação e como se prevenir digitalmente</h1>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Entenda a LGPD</h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">Saiba como a Lei Geral de Proteção de Dados (LGPD) e os Certificados Digitais protegem
+              suas informações e garantem a segurança na internet.</p>
+            <a href="./lgpd.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./assets/img/book-solid.svg" class="img-fluid rounded" style="max-width: 100px;"
+              alt="Ilustração LGPD e Certificado Digital"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Importância do Certificado Digital</h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">Saiba o que são Certificados Digitais, sua utilidade, seus tipos existentes e quais
+              maneiras de adquirir um. </p>
+            <a href="./certificado-digital.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./assets/img/brain-solid.svg" class="img-fluid rounded" style="max-width: 100px;"
+              alt="Ilustração sobre Segurança Lógica"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Senhas</h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">Permissão de Acesso de Diferentes Usuários e Comportamento do Usuário.
+              <br>
+              Gerenciamento de Senhas e Comportamento do Usuário.
+              Entenda a importância de políticas de senha, permissão de acesso e como o comportamento
+              do usuário afeta a segurança de dados.
+            </p>
+            <a href="./senhas-permissoes-acesso.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./assets/img/lock-solid.svg" class="img-fluid rounded" style="max-width: 100px;"
+              alt="Ilustração sobre Senhas e Comportamento do Usuário"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Segurança da Informação
+        </h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p>
+              Ameaças à Segurança da Informação - Vulnerabilidades
+              Conceitos Básicos de Segurança da Informação
+              Saiba o que é segurança da informação, quais são as principais ameaças e
+              vulnerabilidades que podem comprometer a segurança dos dados.</p>
+            <a href="./seguranca-informacao.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./assets/img/key-solid.svg" class="img-fluid rounded" style="max-width: 100px;"
+              alt="Ilustração sobre Segurança da Informação"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Segurança Lógica</h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">Descubra como adotar boas práticas de segurança no uso de diferentes softwares para
+              proteger seus dados e sistemas contra ameaças digitais.</p>
+            <a href="./seguranca-logica.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./assets/img/brain-solid.svg" class="img-fluid rounded" style="max-width: 100px;"
+              alt="Ilustração sobre Segurança Lógica"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Boas Práticas no Uso de Diferentes Softwares</h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">Descubra como adotar boas práticas de segurança no uso de diferentes softwares para
+              proteger seus dados e sistemas contra ameaças digitais.</p>
+            <a href="./boas-praticas.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h5 class="card-title">Como Mapear Vulnerabilidades</h5>
+      </div>
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="card-text">
+              Como Criar um Plano Preventivo de Segurança
+              Aprenda a mapear e identificar vulnerabilidades em sistemas e redes, e como criar um
+              plano preventivo de segurança para proteger contra ataques cibernéticos.</p>
+            <a href="./mapeamento-vulnerabilidades.html" class="btn btn-primary">Leia mais</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./assets/img/bug-solid.svg" class="img-fluid rounded" style="max-width: 100px;"
+              alt="Ilustração sobre Mapeamento de Vulnerabilidades"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #383c44">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-between p-4" style="background-color: #aaaa">
+      <!-- Left -->
+      <a href="" class="text-white me-4">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="text-white me-4">
+        <i class="fab fa-github"></i>
+      </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Digital Guardião</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color:  #aaaa; height: 2px" />
+            <p>
+              Seu portal completo sobre segurança da informação! Nosso objetivo é fornecer informações abrangentes e
+              atualizadas sobre como proteger seus dados e se manter seguro no mundo digital.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Artigos</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color:  #aaaa; height: 2px" />
+            <p>
+              <a href="./boas-praticas.html" class="text-white">Entenda a LGPD</a>
+            </p>
+            <p>
+              <a href="./certificado-digital.html" class="text-white">Certificado Digital</a>
+            </p>
+            <p>
+              <a href="./senhas-permissoes-acesso.html" class="text-white">Senhas</a>
+            </p>
+            <p>
+              <a href="./seguranca-informacao.html" class="text-white">Segurança da Informação</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Artigos</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #aaaa; height: 2px" />
+            <p>
+              <a href="./seguranca-logica.html" class="text-white">Segurança Lógica</a>
+            </p>
+            <p>
+              <a href="./boas-praticas.html" class="text-white">Boas Práticas no Uso de Diferentes Softwares</a>
+            </p>
+            <p>
+              <a href="./mapeamento-vulnerabilidades.html" class="text-white">Como Mapear Vulnerabilidades</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Desenvolvedores</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #aaaa; height: 2px" />
+            <ul>
+              <li class="devsName">Wallace Pereira
+                <div class="icon-link">
+                  <a href="https://www.linkedin.com/in/wallacepereira-in/" target="_blank">
+                    <img src="assets/img/linkedin.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                  <a href="https://github.com/Wallace-Pereira1" target="_blank">
+                    <img src="assets/img/github.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                </div>
+              </li>
+              <li class="devsName">Fabricio Pontes
+                <div class="icon-link">
+                  <a href="https://www.linkedin.com/in/fabricio-pontes-tech" target="_blank" />
+                  <img src="assets/img/linkedin.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                  <a href="https://github.com/Fabponts" target="_blank">
+                    <img src="assets/img/github.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                </div>
+              </li>
+              <li class="devsName">Milena Souza
+                <div class="icon-link">
+                  <a href="https://www.linkedin.com/in/milena-souza-3ba25a106" target="_blank">
+                    <img src="assets/img/linkedin.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                  <a href="https://github.com/SouzaaMilena" target="_blank">
+                    <img src="assets/img/github.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                </div>
+              </li>
+              <li class="devsName">Jean Oliveira
+                <div class="icon-link">
+                  <a href="https://www.linkedin.com/in/jeanvictorolivei/" target="_blank">
+                    <img src="assets/img/linkedin.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                  <a href="https://github.com/JeanVictr" target="_blank">
+                    <img src="assets/img/github.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                </div>
+              </li>
+              <li class="devsName">Erick Barradas
+                <div class="icon-link">
+                  <a href="https://www.linkedin.com/in/erick-barradas/" target="_blank">
+                    <img src="assets/img/linkedin.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                  <a href="https://github.com/ErickBarradas" target="_blank">
+                    <img src="assets/img/github.svg" style="filter: brightness(0) invert(1);">
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
